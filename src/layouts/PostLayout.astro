@@ -1,0 +1,114 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import AmazonProduct from '../components/AmazonProduct.astro';
+import { getCategoryBySlug } from '../data/categories';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+  headings: { depth: number; slug: string; text: string }[];
+}
+
+const { post, headings } = Astro.props;
+const { title, description, pubDate, updatedDate, category, image, imageAlt, products } = post.data;
+const categoryMeta = getCategoryBySlug(category);
+const categoryLabel = categoryMeta?.name ?? category;
+
+const ASIN_RE = /\/dp\/([A-Z0-9]{10})/;
+const resolvedProducts = products?.map(p => ({
+  ...p,
+  resolvedAsin: p.asin || (p.affiliateUrl ? (ASIN_RE.exec(p.affiliateUrl)?.[1] ?? '') : ''),
+}));
+---
+
+<BaseLayout title={title} description={description} image={image} type="article" pubDate={pubDate} updatedDate={updatedDate}>
+  <article class="max-w-7xl mx-auto px-4 py-12">
+    <div class="lg:grid lg:grid-cols-[1fr_680px_1fr] lg:gap-8">
+
+      <!-- Left spacer -->
+      <div></div>
+
+      <!-- Article body -->
+      <div>
+        <a
+          href={`/categories/${category}/`}
+          class="inline-block text-sm font-semibold text-[var(--color-accent)] uppercase tracking-wide mb-4 hover:underline"
+        >
+          {categoryLabel}
+        </a>
+
+        <h1 class="text-4xl font-bold text-[var(--color-heading)] leading-tight mb-4" style="font-family: 'Lora', serif;">{title}</h1>
+
+        <div class="flex items-center gap-4 text-sm text-[var(--color-muted)] mb-8">
+          <time datetime={pubDate.toISOString()}>
+            {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          </time>
+          {updatedDate && (
+            <span>· Updated {updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+          )}
+        </div>
+
+        {image && (
+          <img
+            src={image}
+            alt={imageAlt || title}
+            class="w-full rounded-xl mb-10 aspect-video object-cover"
+            width="1200"
+            height="675"
+            loading="eager"
+            fetchpriority="high"
+          />
+        )}
+
+        {headings.length > 0 && (
+          <details class="lg:hidden border border-[var(--color-border)] rounded-lg p-4 mb-8">
+            <summary class="font-semibold cursor-pointer">Table of Contents</summary>
+            <TableOfContents headings={headings} />
+          </details>
+        )}
+
+        <div class="prose prose-lg max-w-none
+          prose-headings:text-[var(--color-heading)] prose-headings:font-bold
+          prose-a:text-[var(--color-accent)] prose-a:no-underline hover:prose-a:underline
+          prose-blockquote:not-italic">
+          <slot />
+        </div>
+
+        {resolvedProducts && resolvedProducts.length > 0 && (
+          <div class="mt-16 border-t border-[var(--color-border)] pt-10">
+            <h2 class="text-xl font-bold mb-6" style="font-family: 'Lora', serif;">Recommended Products</h2>
+            <div class="grid gap-4">
+              {resolvedProducts.map(product => (
+                <AmazonProduct
+                  asin={product.resolvedAsin}
+                  title={product.name}
+                  description={product.description}
+                  badge={product.badge}
+                  rating={product.rating}
+                  image={product.image}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      <!-- Right sidebar -->
+      <div class="hidden lg:block">
+        <div class="sticky top-8 space-y-8">
+          {headings.length > 0 && (
+            <div class="border border-[var(--color-border)] rounded-xl p-6">
+              <h3 class="font-semibold text-sm uppercase tracking-wide text-[var(--color-muted)] mb-4">Table of Contents</h3>
+              <TableOfContents headings={headings} />
+            </div>
+          )}
+          <div class="border-2 border-dashed border-[var(--color-border)] rounded-xl p-6 text-center text-[var(--color-muted)] text-sm">
+            Ad Placement
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </article>
+</BaseLayout>

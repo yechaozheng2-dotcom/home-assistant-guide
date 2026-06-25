@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { categories, getCategoryBySlug } from '../../data/categories';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  return categories.map(cat => ({ params: { category: cat.slug } }));
+}
+
+const { category } = Astro.params;
+const meta = getCategoryBySlug(category!);
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === category);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title={`${meta?.name ?? category} — Eco Home Guide`}
+  description={meta?.description ?? `Browse ${category} guides on Eco Home Guide.`}
+>
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <div class="flex items-center gap-3 mb-3">
+      {meta?.icon && <span class="text-4xl">{meta.icon}</span>}
+      <h1 class="text-4xl font-bold text-[var(--color-heading)]" style="font-family: 'Lora', serif;">{meta?.name ?? category}</h1>
+    </div>
+    <p class="text-[var(--color-muted)] max-w-2xl mb-10">{meta?.description}</p>
+    {posts.length === 0 ? (
+      <p class="text-[var(--color-muted)]">No guides yet. Check back soon!</p>
+    ) : (
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {posts.map(post => (
+          <PostCard
+            title={post.data.title}
+            description={post.data.description}
+            slug={post.id}
+            pubDate={post.data.pubDate}
+            category={post.data.category}
+            image={post.data.image}
+            imageAlt={post.data.imageAlt}
+          />
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>

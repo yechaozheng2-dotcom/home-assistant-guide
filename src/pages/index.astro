@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { categories } from '../data/categories';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const recentPosts = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+---
+
+<BaseLayout
+  title="Home Assistant Guide — Tutorials, Automations & Integrations"
+  description="Step-by-step Home Assistant tutorials for beginners and advanced users. Learn automations, integrations, dashboards and more."
+>
+  <section class="max-w-7xl mx-auto px-4 pt-20 pb-16 text-center">
+    <h1 class="text-5xl md:text-6xl font-bold text-[var(--color-heading)] leading-tight mb-6" style="font-family: 'Lora', serif;">
+      Master Home Assistant.<br />
+      <span class="text-[var(--color-accent)]">Automate Everything.</span>
+    </h1>
+    <p class="text-xl text-[var(--color-muted)] max-w-2xl mx-auto mb-8">
+      Practical tutorials and guides for Home Assistant — from first install to advanced automations, integrations and dashboards.
+    </p>
+    <a href="/blog/" class="inline-block px-8 py-4 bg-[var(--color-accent)] text-white font-bold rounded-xl hover:opacity-90 transition-opacity text-lg">
+      Browse All Tutorials →
+    </a>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold text-[var(--color-heading)] mb-8" style="font-family: 'Lora', serif;">Browse by Topic</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {categories.map(cat => (
+        <a href={`/categories/${cat.slug}/`} class="border border-[var(--color-border)] rounded-xl p-6 hover:border-[var(--color-accent)] hover:shadow-md transition-all bg-[var(--color-surface)]">
+          <div class="text-3xl mb-3">{cat.icon}</div>
+          <h3 class="font-bold text-lg text-[var(--color-heading)]">{cat.name}</h3>
+          <p class="text-sm text-[var(--color-muted)] mt-1">{cat.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {recentPosts.length > 0 && (
+    <section class="max-w-7xl mx-auto px-4 py-12">
+      <h2 class="text-2xl font-bold text-[var(--color-heading)] mb-8" style="font-family: 'Lora', serif;">Latest Tutorials</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {recentPosts.map(post => (
+          <PostCard
+            title={post.data.title}
+            description={post.data.description}
+            slug={post.id}
+            pubDate={post.data.pubDate}
+            category={post.data.category}
+            image={post.data.image}
+            imageAlt={post.data.imageAlt}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>

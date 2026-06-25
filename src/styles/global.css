@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+:root {
+  --color-bg: #F5F8FF;
+  --color-heading: #1A1F3A;
+  --color-accent: #3B6FE8;
+  --color-accent-warm: #E87B3B;
+  --color-muted: #6B74A0;
+  --color-border: #D0D9F0;
+  --color-surface: #FFFFFF;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-heading);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@layer components {
+  .callout-pros {
+    background-color: #F0FAF0;
+    border-left: 4px solid var(--color-accent);
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+  }
+
+  .callout-pros li::before {
+    content: '✓ ';
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+
+  .callout-cons {
+    background-color: #FDF6EE;
+    border-left: 4px solid var(--color-accent-warm);
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+  }
+
+  .callout-cons li::before {
+    content: '✗ ';
+    color: var(--color-accent-warm);
+    font-weight: 700;
+  }
+
+  .callout-eco {
+    background-color: #EEF5EE;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .callout-eco::before {
+    content: '🌿';
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+}

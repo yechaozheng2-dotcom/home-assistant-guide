@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title="All Guides — Eco Home Guide"
+  description="Browse all sustainable living guides, product reviews, and eco buying guides from Eco Home Guide."
+>
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-[var(--color-heading)] mb-4" style="font-family: 'Lora', serif;">All Guides</h1>
+    <p class="text-[var(--color-muted)] mb-10">{posts.length} guides published</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {posts.map(post => (
+        <PostCard
+          title={post.data.title}
+          description={post.data.description}
+          slug={post.id}
+          pubDate={post.data.pubDate}
+          category={post.data.category}
+          image={post.data.image}
+          imageAlt={post.data.imageAlt}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

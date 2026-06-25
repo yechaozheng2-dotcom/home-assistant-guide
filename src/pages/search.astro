@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Search — Eco Home Guide"
+  description="Search all eco product guides, sustainable living articles, and buying guides on Eco Home Guide."
+>
+  <link slot="head" rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script slot="head" src="/pagefind/pagefind-ui.js" is:inline></script>
+  <script slot="head" is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      new PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        highlightParam: 'highlight',
+      });
+    });
+  </script>
+
+  <div class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-[var(--color-heading)] mb-8" style="font-family: 'Lora', serif;">Search</h1>
+    <div id="search"></div>
+  </div>
+</BaseLayout>
