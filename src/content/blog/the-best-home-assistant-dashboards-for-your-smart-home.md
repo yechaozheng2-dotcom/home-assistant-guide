@@ -10,7 +10,7 @@ tags:
   - Guides
 image: "/images/the-best-home-assistant-dashboards-for-your-smart-home.jpg"
 imageAlt: "graphs of performance analytics on a laptop screen"
-imageKeyword: "tablet displaying smart home dashboard"
+imageKeyword: "lovelace dashboard screen tablet"
 draft: false
 ---
 

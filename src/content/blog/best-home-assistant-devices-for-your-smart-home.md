@@ -11,7 +11,7 @@ tags:
 - Home Integration
 image: "/images/best-home-assistant-devices-for-your-smart-home.jpg"
 imageAlt: "a laptop computer sitting on top of a table"
-imageKeyword: smart home devices on table
+imageKeyword: "zigbee smart home sensors hubs"
 draft: false
 products:
 - name: SimpliSafe 10 Piece Wireless Home Security System with Outdoor Camera- Optional

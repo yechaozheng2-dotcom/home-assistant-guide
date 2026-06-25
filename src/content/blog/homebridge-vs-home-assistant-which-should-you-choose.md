@@ -9,8 +9,8 @@ tags:
   - Smart Home
   - Comparison
 image: "/images/homebridge-vs-home-assistant-which-should-you-choose.jpg"
-imageAlt: "a woman standing in front of a wall mounted light switch"
-imageKeyword: "person interacting with smart home device"
+imageAlt: "green and black circuit board"
+imageKeyword: "raspberry pi homebridge setup"
 draft: false
 ---
 

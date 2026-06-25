@@ -9,8 +9,8 @@ tags:
   - Smart Home Tech
   - Reviews
 image: "/images/homekit-vs-home-automation-which-one-should-you-choose.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
-imageKeyword: "smart home devices on table"
+imageAlt: "black iphone 5 on brown wooden table"
+imageKeyword: "apple homekit app iphone"
 draft: false
 ---
 

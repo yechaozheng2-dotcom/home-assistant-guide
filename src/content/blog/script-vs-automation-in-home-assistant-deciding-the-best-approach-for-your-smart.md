@@ -9,8 +9,8 @@ tags:
   - Automations
   - Scripting
 image: "/images/script-vs-automation-in-home-assistant-deciding-the-best-approach-for-your-smart.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
-imageKeyword: "person configuring smart home"
+imageAlt: "black flat screen computer monitor"
+imageKeyword: "yaml code editor home assistant"
 draft: false
 ---
 

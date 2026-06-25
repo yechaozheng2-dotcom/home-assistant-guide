@@ -9,8 +9,8 @@ tags:
   - Smart Home
   - Automation
 image: "/images/homey-vs-home-assistant-a-comprehensive-comparison-for-smart-home-enthusiasts.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
-imageKeyword: "smart home devices organized setup"
+imageAlt: "white and black modem router with four lights"
+imageKeyword: "homey smart home hub bridge"
 draft: false
 ---
 
