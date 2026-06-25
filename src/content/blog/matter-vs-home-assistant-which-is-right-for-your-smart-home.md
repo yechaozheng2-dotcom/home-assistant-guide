@@ -2,7 +2,7 @@
 title: "Matter vs. Home Assistant: Which is Right for Your Smart Home?"
 description: "A detailed comparison of Matter and Home Assistant to help you choose the best platform for your smart home needs."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "integrations"
 tags:
   - Home Assistant
   - Matter

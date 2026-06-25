@@ -2,7 +2,7 @@
 title: "SmartThings vs Home Assistant: Which One Reigns Supreme?"
 description: "An in-depth comparison of SmartThings and Home Assistant, highlighting their features, pricing, and ideal use cases."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "getting-started"
 tags:
   - SmartThings
   - Home Assistant

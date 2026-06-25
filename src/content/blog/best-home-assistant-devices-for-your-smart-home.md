@@ -3,7 +3,7 @@ title: Best Home Assistant Devices for Your Smart Home
 description: Discover the best devices to integrate with Home Assistant for a customized
   smart home experience.
 pubDate: 2026-06-25
-category: Smart Home
+category: "integrations"
 tags:
 - Home Assistant
 - Smart Home Devices

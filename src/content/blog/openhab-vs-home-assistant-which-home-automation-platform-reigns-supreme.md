@@ -2,7 +2,7 @@
 title: "OpenHAB vs Home Assistant: Which Home Automation Platform Reigns Supreme?"
 description: "A detailed comparison between OpenHAB and Home Assistant to help you choose the best smart home automation platform for your needs."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "automations"
 tags:
   - OpenHAB
   - Home Assistant

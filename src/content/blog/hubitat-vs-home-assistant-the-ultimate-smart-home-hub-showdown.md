@@ -2,7 +2,7 @@
 title: "Hubitat vs Home Assistant: The Ultimate Smart Home Hub Showdown"
 description: "Dive into the comparison of Hubitat and Home Assistant to determine which is the best smart home hub for your needs."
 pubDate: 2026-06-25
-category: "Smart Home Technology"
+category: "getting-started"
 tags:
   - Hubitat
   - Home Assistant

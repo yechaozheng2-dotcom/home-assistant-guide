@@ -2,7 +2,7 @@
 title: "ESPHome vs Home Assistant: Which is Right for Your Smart Home?"
 description: "Dive deep into the features, benefits, and drawbacks of ESPHome and Home Assistant to determine the best choice for your smart home setup."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "integrations"
 tags:
   - ESPHome
   - Home Assistant

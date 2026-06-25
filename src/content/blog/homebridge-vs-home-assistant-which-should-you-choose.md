@@ -2,7 +2,7 @@
 title: "Homebridge vs Home Assistant: Which Should You Choose?"
 description: "A detailed comparison of Homebridge and Home Assistant to help you decide which smart home platform fits your needs best."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "getting-started"
 tags:
   - Homebridge
   - Home Assistant

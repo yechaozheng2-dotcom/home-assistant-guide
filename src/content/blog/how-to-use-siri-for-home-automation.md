@@ -2,7 +2,7 @@
 title: "How to Use Siri for Home Automation"
 description: "A complete guide on integrating Siri into your home automation setup for seamless smart home control."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "automations"
 tags:
   - Siri
   - Home Automation

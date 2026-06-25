@@ -2,7 +2,7 @@
 title: "Homey vs Home Assistant: A Comprehensive Comparison for Smart Home Enthusiasts"
 description: "Dive into the ultimate comparison between Homey and Home Assistant to decide which smart home hub is best for you."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "getting-started"
 tags:
   - Homey
   - Home Assistant

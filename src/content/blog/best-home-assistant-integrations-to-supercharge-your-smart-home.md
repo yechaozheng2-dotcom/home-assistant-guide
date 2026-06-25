@@ -2,7 +2,7 @@
 title: "Best Home Assistant Integrations to Supercharge Your Smart Home"
 description: "Discover the top Home Assistant integrations that enhance your smart home setup with automation and control."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "integrations"
 tags:
   - Home Assistant
   - Smart Home

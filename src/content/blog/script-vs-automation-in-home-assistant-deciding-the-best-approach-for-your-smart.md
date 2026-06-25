@@ -2,7 +2,7 @@
 title: "Script vs Automation in Home Assistant: Deciding the Best Approach for Your Smart Home"
 description: "Explore the differences between scripts and automations in Home Assistant to determine which is best suited for your smart home needs."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "automations"
 tags:
   - Home Assistant
   - Smart Home Guides

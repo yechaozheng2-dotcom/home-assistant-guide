@@ -2,7 +2,7 @@
 title: "HomeKit vs Home Automation: Which One Should You Choose?"
 description: "A detailed comparison between HomeKit and general home automation solutions to help you decide on the best fit for your smart home."
 pubDate: 2026-06-25
-category: "Smart Home"
+category: "automations"
 tags:
   - HomeKit
   - Home Automation

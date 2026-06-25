@@ -2,7 +2,7 @@
 title: "Best Home Assistant Automations for Ultimate Smart Home Control"
 description: "Discover the most effective home assistant automations to improve your smart home experience and save time."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "automations"
 tags:
   - Automation
   - Home Assistant

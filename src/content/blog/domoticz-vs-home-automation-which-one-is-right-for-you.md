@@ -2,7 +2,7 @@
 title: "Domoticz vs Home Automation: Which One is Right for You?"
 description: "A thorough comparison between Domoticz and general home automation solutions, helping you determine the best fit for your smart home project."
 pubDate: 2026-06-25
-category: "Smart Home"
+category: "automations"
 tags:
   - Domoticz
   - Home Automation

@@ -2,7 +2,7 @@
 title: "The Best Home Assistant Dashboards for Your Smart Home"
 description: "Discover the top home assistant dashboards that streamline your smart home experience, complete with features, prices, and comparisons."
 pubDate: 2026-06-25
-category: "Home Assistant"
+category: "dashboards"
 tags:
   - Home Assistant
   - Dashboards

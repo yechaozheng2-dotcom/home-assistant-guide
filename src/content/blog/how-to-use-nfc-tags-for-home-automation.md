@@ -2,7 +2,7 @@
 title: "How to Use NFC Tags for Home Automation"
 description: "A step-by-step guide on integrating NFC tags into your home automation system for easy control of smart devices."
 pubDate: 2026-06-25
-category: "Home Automation"
+category: "automations"
 tags:
   - NFC Tags
   - Home Automation
