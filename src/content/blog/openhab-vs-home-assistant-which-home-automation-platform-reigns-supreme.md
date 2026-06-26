@@ -14,7 +14,7 @@ imageKeyword: "person using smart home dashboard"
 draft: false
 ---
 
-OpenHAB and Home Assistant are two of the most popular open-source home automation platforms that cater to tech-savvy users and DIY enthusiasts. If you're trying to decide between these platforms, the bottom line is clear: **Home Assistant is the better choice for most users**. While both platforms are powerful in their own right, Home Assistant offers a more user-friendly experience, broader community support, and a rich ecosystem of integrations.
+OpenHAB and [Home Assistant](/blog/best-home-assistant-automations-for-ultimate-smart-home-control/) are two of the most popular open-source [home automation](/blog/domoticz-vs-home-automation-which-one-is-right-for-you/) platforms that cater to tech-savvy users and DIY enthusiasts. If you're trying to decide between these platforms, the bottom line is clear: **Home Assistant is the better choice for most users**. While both platforms are powerful in their own right, Home Assistant offers a more user-friendly experience, broader community support, and a rich ecosystem of integrations.
 
 ### Why Home Assistant is Better for You
 
@@ -46,7 +46,7 @@ OpenHAB and Home Assistant are two of the most popular open-source home automati
 
 2. **Device Compatibility**:
    - **OpenHAB**: While it connects to many devices, it may not support some of the latest smart home gadgets unless community members create specific bindings.
-   - **Home Assistant**: With extensive integration possibilities, it supports virtually all major smart home brands and devices. This means you'll have access to a broader range of products that you can tie into your home automation.
+   - **Home Assistant**: With extensive integration possibilities, it supports virtually all major smart home brands and devices. This means you'll have access to a broader range of products that you can tie into your [home automation](/blog/homekit-vs-home-automation-which-one-should-you-choose/).
 
 3. **Automation and Flexibility**:
    - **OpenHAB**: Offers robust automation capabilities; however, it can be overwhelming due to its complexity. Automations require a good understanding of the platform and can involve writing code.

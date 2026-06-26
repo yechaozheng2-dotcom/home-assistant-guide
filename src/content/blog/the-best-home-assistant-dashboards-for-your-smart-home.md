@@ -28,7 +28,7 @@ To make your choice easier, let's compare the top home assistant dashboards avai
 
 | Dashboard               | Price              | Key Features                                           | Ease of Use   | Customization   | Best For                      |
 |------------------------|-------------------|------------------------------------------------------|----------------|------------------|-------------------------------|
-| **Home Assistant**     | Free              | Built-in integration, customizable UI, mobile access | High           | Very High        | Home automation enthusiasts    |
+| **Home Assistant**     | Free              | Built-in integration, customizable UI, mobile access | High           | Very High        | [Home automation](/blog/domoticz-vs-home-automation-which-one-is-right-for-you/) enthusiasts    |
 | **OpenHAB**            | Free              | Extensive device compatibility, powerful rules       | Medium         | High             | Advanced users with coding skills |
 | **Domoticz**           | Free              | Simple UI, web and mobile interfaces                  | High           | Medium           | Basic users looking for simplicity |
 
@@ -37,7 +37,7 @@ To make your choice easier, let's compare the top home assistant dashboards avai
 ### 1. Home Assistant Lovelace UI
 
 **Price:** Free  
-**Best For:** Home automation enthusiasts and those who love customizing their space.
+**Best For:** [Home automation](/blog/homekit-vs-home-automation-which-one-should-you-choose/) enthusiasts and those who love customizing their space.
 
 The Lovelace UI is integrated into Home Assistant by default. It's powerful because it allows you to create custom views without any programming skills. This means you can arrange switches, lights, and media controls just how you want them. The built-in visualization tools allow you to monitor your energy consumption, temperature, and other vital stats.
 
@@ -91,7 +91,7 @@ If you’re a tech-savvy user who enjoys customizing your smart home experience,
 If you’re an advanced user or developer who wants maximum control over your smart devices through coding, OpenHAB should be your go-to dashboard.
 
 ### Domoticz
-If you're new to home automation and want a straightforward experience without diving deep into tech setups, Domoticz will meet your basic needs.
+If you're new to [home automation](/blog/how-to-use-nfc-tags-for-home-automation/) and want a straightforward experience without diving deep into tech setups, Domoticz will meet your basic needs.
 
 ---
 

@@ -14,13 +14,13 @@ imageKeyword: "homey smart home hub bridge"
 draft: false
 ---
 
-If you're torn between Homey and Home Assistant for your smart home setup, the choice can greatly influence your experience. **Bottom Line: Home Assistant is the clear winner for those who want granular control and extensive integration options, while Homey excels in user-friendliness and all-in-one capabilities.** 
+If you're torn between Homey and [Home Assistant](/blog/homebridge-vs-home-assistant-which-should-you-choose/) for your smart home setup, the choice can greatly influence your experience. **Bottom Line: [Home Assistant](/blog/smartthings-vs-home-assistant-which-one-reigns-supreme/) is the clear winner for those who want granular control and extensive integration options, while Homey excels in user-friendliness and all-in-one capabilities.** 
 
 In this article, we will break down the strengths and weaknesses of both platforms, explore price points, and help you determine which option is best for your needs. 
 
 ### Overview
 
-**Homey** is designed to be an all-in-one smart home hub that supports a wide variety of devices and protocols, providing a premium experience with an intuitive interface. It's priced around **$399**, a higher upfront cost but packaged with comprehensive capabilities.
+**Homey** is designed to be an all-in-one [smart home hub](/blog/hubitat-vs-home-assistant-the-ultimate-smart-home-hub-showdown/) that supports a wide variety of devices and protocols, providing a premium experience with an intuitive interface. It's priced around **$399**, a higher upfront cost but packaged with comprehensive capabilities.
 
 **Home Assistant**, on the other hand, is an open-source platform known for its extensive community support, flexibility, and customizability. While it can be complex and requires some technical savvy, it is free to use if self-hosted, or you can choose a subscription option for added ease. 
 

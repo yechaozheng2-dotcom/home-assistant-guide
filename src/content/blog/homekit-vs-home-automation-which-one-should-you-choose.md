@@ -14,7 +14,7 @@ imageKeyword: "apple homekit app iphone"
 draft: false
 ---
 
-When it comes to choosing a smart home ecosystem, the debate between HomeKit and broader home automation solutions is crucial. **Bottom line: if you're invested in Apple products and value seamless integration, HomeKit is your best bet.** However, if you’re looking for more versatility and a wider range of compatible devices, consider general home automation systems like SmartThings or Hubitat.
+When it comes to choosing a smart home ecosystem, the debate between HomeKit and broader [home automation](/blog/domoticz-vs-home-automation-which-one-is-right-for-you/) solutions is crucial. **Bottom line: if you're invested in Apple products and value seamless integration, HomeKit is your best bet.** However, if you’re looking for more versatility and a wider range of compatible devices, consider general [home automation](/blog/how-to-use-nfc-tags-for-home-automation/) systems like SmartThings or Hubitat.
 
 ### Understanding HomeKit
 
@@ -32,7 +32,7 @@ Prices for HomeKit compatible devices can vary widely; for example, a **HomePod 
 On the other hand, **home automation** generally refers to a broader category of smart home technologies that can involve multiple platforms and protocols. Here’s what to expect in the realm of general home automation:
 
 - **Device Compatibility**: Rather than being locked into one ecosystem, general home automation solutions often support a range of devices from various manufacturers. For instance, SmartThings can integrate products from big names like Philips Hue, SmartThings sensors, and even devices not previously marketed as smart.
-- **Customization**: Home automation platforms usually provide more customization options via advanced setups or custom scripts, especially if you’re tech-savvy.
+- **Customization**: [Home automation platform](/blog/openhab-vs-home-assistant-which-home-automation-platform-reigns-supreme/)s usually provide more customization options via advanced setups or custom scripts, especially if you’re tech-savvy.
 - **Flexibility**: These platforms tend to offer more device integration, meaning you can find a much larger variety of products — from smart plugs to security cameras.
 - **Cost**: Prices can range dramatically; while you can find smart plugs for under **$25**, advanced hubs like the **Samsung SmartThings Hub** or **Hubitat** can start around **$100** and more, depending on the features you want.
 

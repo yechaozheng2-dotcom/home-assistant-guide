@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import AmazonProduct from '../components/AmazonProduct.astro';
 import { getCategoryBySlug } from '../data/categories';
+import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -20,6 +21,11 @@ const resolvedProducts = products?.map(p => ({
   ...p,
   resolvedAsin: p.asin || (p.affiliateUrl ? (ASIN_RE.exec(p.affiliateUrl)?.[1] ?? '') : ''),
 }));
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const relatedPosts = allPosts
+  .filter(p => p.id !== post.id && p.data.category === category)
+  .slice(0, 3);
 ---
 
 <BaseLayout title={title} description={description} image={image} type="article" pubDate={pubDate} updatedDate={updatedDate}>
@@ -111,4 +117,18 @@ const resolvedProducts = products?.map(p => ({
 
     </div>
   </article>
+
+  {relatedPosts.length > 0 && (
+    <div style="max-width: 680px; margin: 3rem auto; padding: 0 1rem;">
+      <h2 style="font-size: 1.125rem; font-weight: 700; color: var(--color-heading); margin-bottom: 1.25rem; padding-bottom: 0.625rem; border-bottom: 2px solid var(--color-accent);">Related Articles</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;">
+        {relatedPosts.map(p => (
+          <a href={`/blog/${p.id}/`} style="display: block; padding: 1rem; border: 1px solid var(--color-border); border-radius: 0.75rem; text-decoration: none;" onmouseover="this.style.borderColor='var(--color-accent)'" onmouseout="this.style.borderColor='var(--color-border)'">
+            <p style="font-size: 0.875rem; font-weight: 600; color: var(--color-heading); margin: 0; line-height: 1.4;">{p.data.title}</p>
+            <p style="font-size: 0.75rem; color: var(--color-muted); margin: 0.5rem 0 0;">{p.data.description?.slice(0, 80)}…</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
 </BaseLayout>

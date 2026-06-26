@@ -14,11 +14,11 @@ imageKeyword: "smart home dashboard comparison"
 draft: false
 ---
 
-When it comes to choosing a smart home platform, SmartThings and Home Assistant often dominate the conversation. Both offer unique advantages, but if you want a robust, customizable, and extensive smart home setup, **Home Assistant is the clear winner.** Let’s dive into a thorough comparison of their features, capabilities, and pricing to help you make an informed decision.
+When it comes to choosing a smart home platform, SmartThings and [Home Assistant](/blog/homebridge-vs-home-assistant-which-should-you-choose/) often dominate the conversation. Both offer unique advantages, but if you want a robust, customizable, and extensive smart home setup, **[Home Assistant](/blog/homey-vs-home-assistant-a-comprehensive-comparison-for-smart-home-enthusiasts/) is the clear winner.** Let’s dive into a thorough comparison of their features, capabilities, and pricing to help you make an informed decision.
 
 ## Bottom Line: Our Pick
 
-- **Home Assistant** is ideal for tech-savvy users looking for unlimited customization and control over their smart home ecosystem. It’s free, open-source, and offers a wealth of integrations.
+- **[Home Assistant](/blog/hubitat-vs-home-assistant-the-ultimate-smart-home-hub-showdown/)** is ideal for tech-savvy users looking for unlimited customization and control over their smart home ecosystem. It’s free, open-source, and offers a wealth of integrations.
 - **SmartThings**, averaging around **$15 to $100** for their various hubs, is a better fit for those seeking user-friendly, plug-and-play experience, especially if you already own Samsung products.
 
 ## Feature Comparison

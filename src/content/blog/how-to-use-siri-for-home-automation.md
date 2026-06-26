@@ -14,7 +14,7 @@ imageKeyword: "woman using smartphone for home automation"
 draft: false
 ---
 
-Using Siri for home automation can simplify your life, making it easier to control various smart devices with voice commands. If you're looking to optimize your home for automation with Apple's virtual assistant, you've landed in the right place. Bottom line: **Siri, combined with HomeKit-compatible devices, offers an intuitive and secure way to manage your smart home**. 
+Using Siri for [home automation](/blog/domoticz-vs-home-automation-which-one-is-right-for-you/) can simplify your life, making it easier to control various smart devices with voice commands. If you're looking to optimize your home for automation with Apple's virtual assistant, you've landed in the right place. Bottom line: **Siri, combined with HomeKit-compatible devices, offers an intuitive and secure way to manage your [smart home](/blog/best-home-assistant-automations-for-ultimate-smart-home-control/)**. 
 
 ### Why Use Siri for Home Automation?
 
@@ -101,7 +101,7 @@ This can often be configured directly within the Home app under “Automation.�
 
 ### Direct Recommendation
 
-If you’re already within the Apple ecosystem and prioritize ease of use and security, **using Siri for home automation is a solid choice**. With the right devices, you'll find managing your home effortless and responsive.
+If you’re already within the Apple ecosystem and prioritize ease of use and security, **using Siri for [home automation](/blog/homekit-vs-home-automation-which-one-should-you-choose/) is a solid choice**. With the right devices, you'll find managing your home effortless and responsive.
 
 On the flip side, if you need broader compatibility with non-HomeKit devices or you're introducing smart tech to a mixed-device environment, consider exploring Google Assistant or Alexa instead. This will save you from the pitfalls of device compatibility and expand your automation capabilities.
 

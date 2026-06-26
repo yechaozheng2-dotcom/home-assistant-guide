@@ -14,12 +14,12 @@ imageKeyword: "smart home device setup"
 draft: false
 ---
 
-If you’re diving into the smart home world, you’ve probably heard about Matter and Home Assistant. Here’s the bottom line: **Home Assistant is better for DIY enthusiasts and those wanting extensive customization and integration options, while Matter is ideal for users looking for simplified device compatibility across brands.** Let's break down both platforms so you can decide which is the right fit for you.
+If you’re diving into the smart home world, you’ve probably heard about Matter and [Home Assistant](/blog/best-home-assistant-devices-for-your-smart-home/). Here’s the bottom line: **[Home Assistant](/blog/best-home-assistant-integrations-to-supercharge-your-smart-home/) is better for DIY enthusiasts and those wanting extensive customization and integration options, while Matter is ideal for users looking for simplified device compatibility across brands.** Let's break down both platforms so you can decide which is the right fit for you.
 
 ### Overview of Home Assistant and Matter
 
 #### Home Assistant
-Home Assistant is an open-source platform designed to integrate and automate a vast array of smart devices from various manufacturers. With this software, you can create sophisticated automations and control your devices from a single interface.
+[Home Assistant](/blog/esphome-vs-home-assistant-which-is-right-for-your-smart-home/) is an open-source platform designed to integrate and automate a vast array of smart devices from various manufacturers. With this software, you can create sophisticated automations and control your devices from a single interface.
 
 - **Cost**: Free (open-source)
 - **Compatibility**: Works with over 1,900 devices and services

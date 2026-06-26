@@ -14,7 +14,7 @@ imageKeyword: "hands holding nfc tag smartphone"
 draft: false
 ---
 
-Using NFC (Near Field Communication) tags for home automation can revolutionize how you interact with your smart home devices. If you're looking for a simple and effective way to control lights, music, or even your thermostat, NFC tags provide a user-friendly solution that is customizable and efficient. The bottom line is: NFC tags are an excellent way to streamline your smart home experience.
+Using NFC (Near Field Communication) tags for [home automation](/blog/domoticz-vs-home-automation-which-one-is-right-for-you/) can revolutionize how you interact with your smart home devices. If you're looking for a simple and effective way to control lights, music, or even your thermostat, NFC tags provide a user-friendly solution that is customizable and efficient. The bottom line is: NFC tags are an excellent way to streamline your smart home experience.
 
 ## What are NFC Tags?
 
@@ -34,7 +34,7 @@ Before you begin, gather the following:
 
 - **NFC Tags**: You can find NFC tags like the NTAG213, NTAG215, or NTAG216 on websites like Amazon, with prices ranging from **$10 to $30 for a pack of 10**. Make sure they are compatible with your smartphone or tablet.
 - **Smartphone**: Most modern smartphones support NFC. Check your device settings to ensure NFC is enabled.
-- **Home Automation App**: A home automation platform like Home Assistant, IFTTT, or Tasker will allow you to configure the NFC tags for specific actions.
+- **Home Automation App**: A [home automation platform](/blog/openhab-vs-home-assistant-which-home-automation-platform-reigns-supreme/) like Home Assistant, IFTTT, or Tasker will allow you to configure the NFC tags for specific actions.
 
 ### 2. Configure Your NFC Tags 
 
@@ -44,7 +44,7 @@ You must use an NFC writer app to program the tags. Here’s a typical setup usi
 2. **Prepare the Data**: Decide what you want your NFC tag to do (e.g., control smart lights, trigger scenes). In the app, select “Add a record” and choose the type of action you want to perform.
    - **Bluetooth**: Turn on/off your Bluetooth devices.
    - **URL**: Open a specific webpage.
-   - **Smart Home Control**: Use the webhook feature for services like Home Assistant.
+   - **[Smart Home Control](/blog/best-home-assistant-automations-for-ultimate-smart-home-control/)**: Use the webhook feature for services like Home Assistant.
    
 3. **Write to the Tag**: Hold your NFC tag against your smartphone and select “Write.” 
 

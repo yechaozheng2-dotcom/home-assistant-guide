@@ -14,11 +14,11 @@ imageKeyword: "raspberry pi homebridge setup"
 draft: false
 ---
 
-When it comes to building a smart home, two of the most popular platforms are Homebridge and Home Assistant. Both allow for extensive home automation but target different users and setups. The bottom line? Home Assistant is the clear winner for anyone serious about customizing their smart home experience. Here's why and how they stack up against each other.
+When it comes to building a smart home, two of the most popular platforms are Homebridge and [Home Assistant](/blog/homey-vs-home-assistant-a-comprehensive-comparison-for-smart-home-enthusiasts/). Both allow for extensive home automation but target different users and setups. The bottom line? [Home Assistant](/blog/hubitat-vs-home-assistant-the-ultimate-smart-home-hub-showdown/) is the clear winner for anyone serious about customizing their smart home experience. Here's why and how they stack up against each other.
 
 ## Bottom Line: Our Pick
 
-If you're looking for deep customization, flexibility, and a rich set of features, **Home Assistant** is the way to go. It supports a wide array of devices and allows for complex automations that can adapt to almost any home. On the other hand, **Homebridge** is best suited for those who mainly use Apple HomeKit and want a straightforward setup without diving deep into configurations. 
+If you're looking for deep customization, flexibility, and a rich set of features, **[Home Assistant](/blog/smartthings-vs-home-assistant-which-one-reigns-supreme/)** is the way to go. It supports a wide array of devices and allows for complex automations that can adapt to almost any home. On the other hand, **Homebridge** is best suited for those who mainly use Apple HomeKit and want a straightforward setup without diving deep into configurations. 
 
 ### Feature Comparison
 

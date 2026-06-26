@@ -14,7 +14,7 @@ imageKeyword: "yaml code editor home assistant"
 draft: false
 ---
 
-When it comes to Home Assistant, understanding whether to use a script or an automation can significantly impact your smart home experience. The bottom line? **Automations are generally the better choice for routine tasks**, while scripts offer greater flexibility for specific actions. 
+When it comes to [Home Assistant](/blog/best-home-assistant-automations-for-ultimate-smart-home-control/), understanding whether to use a script or an automation can significantly impact your smart home experience. The bottom line? **Automations are generally the better choice for routine tasks**, while scripts offer greater flexibility for specific actions. 
 
 ### Key Differences: Scripts vs. Automations
 
@@ -29,9 +29,9 @@ When it comes to Home Assistant, understanding whether to use a script or an aut
 
 ### Understanding Automations
 
-Automations in Home Assistant are designed to execute actions automatically based on triggers and conditions. Think of them as your smart home’s autopilot—when a condition is met, an action is triggered without any manual input. For example, you could set up an automation to turn on your living room lights when the sun sets or to lock your doors at midnight.
+Automations in [Home Assistant](/blog/openhab-vs-home-assistant-which-home-automation-platform-reigns-supreme/) are designed to execute actions automatically based on triggers and conditions. Think of them as your smart home’s autopilot—when a condition is met, an action is triggered without any manual input. For example, you could set up an automation to turn on your living room lights when the sun sets or to lock your doors at midnight.
 
-**Price Range**: Setting up automations doesn’t require additional costs beyond your initial Home Assistant setup—as long as you’re using devices already integrated into your system.
+**Price Range**: Setting up automations doesn’t require additional costs beyond your initial [Home Assistant](/blog/best-home-assistant-devices-for-your-smart-home/) setup—as long as you’re using devices already integrated into your system.
 
 **When to Use Automations**:
 - **Routine Tasks**: If you want your lights to dim every night at 8 PM automatically, you’d set an automation.
