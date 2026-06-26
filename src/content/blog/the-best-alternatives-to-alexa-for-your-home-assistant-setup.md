@@ -2,7 +2,7 @@
 title: "The Best Alternatives to Alexa for Your Home Assistant Setup"
 description: "Explore top alternatives to Amazon Alexa for your Home Assistant system, focusing on local processing, privacy, and compatibility."
 pubDate: 2026-06-26
-category: "smart home"
+category: integrations
 tags:
   - Home Assistant
   - Voice Assistant

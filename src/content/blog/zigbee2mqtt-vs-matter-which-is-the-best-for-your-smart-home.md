@@ -2,7 +2,7 @@
 title: "Zigbee2MQTT vs Matter: Which is the Best for Your Smart Home?"
 description: "A thorough comparison between Zigbee2MQTT and Matter, helping you decide which smart home integration technology is right for you."
 pubDate: 2026-06-26
-category: "guides"
+category: getting-started
 tags:
   - Zigbee
   - MQTT

@@ -3,7 +3,7 @@ title: Best Home Energy Monitor for Home Assistant
 description: Discover the top home energy monitors that seamlessly integrate with
   Home Assistant for real-time energy insights.
 pubDate: 2026-06-26
-category: smart home
+category: integrations
 tags:
 - energy monitor
 - home assistant
