@@ -10,7 +10,7 @@ tags:
 - Automation
 - Home Integration
 image: "/images/best-home-assistant-devices-for-your-smart-home.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
+imageAlt: "smarthome, smart house, smart, home automation system, home automation, home smart, iot, internet ofthings, home tech, s"
 imageKeyword: "zigbee smart home sensors hubs"
 draft: false
 products:

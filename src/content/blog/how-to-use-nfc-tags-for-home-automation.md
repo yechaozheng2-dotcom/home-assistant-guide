@@ -8,8 +8,8 @@ tags:
   - Home Automation
   - Smart Home
   - Guides
-image: "/images/how-to-use-nfc-tags-home-automation.jpg"
-imageAlt: "hands holding NFC tag near smartphone"
+image: "/images/how-to-use-nfc-tags-for-home-automation.jpg"
+imageAlt: "gold Apple iPhone smartphone held at the door"
 imageKeyword: "hands holding nfc tag smartphone"
 draft: false
 ---
