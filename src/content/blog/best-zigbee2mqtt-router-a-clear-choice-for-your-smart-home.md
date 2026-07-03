@@ -9,7 +9,7 @@ tags:
   - routers
   - home automation
 image: "/images/best-zigbee2mqtt-router-a-clear-choice-for-your-smart-home.jpg"
-imageAlt: "white and gray Google smart speaker and two black speakers"
+imageAlt: "turned-on charcoal Google Home Mini and smartphone"
 imageKeyword: "smart home devices setup"
 draft: false
 ---

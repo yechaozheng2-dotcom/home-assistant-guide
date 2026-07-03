@@ -10,7 +10,7 @@ tags:
 - Home Assistant
 - Dongles
 image: "/images/the-best-zigbee2mqtt-dongles-for-your-smart-home-setup.jpg"
-imageAlt: "a white tablet with a screen"
+imageAlt: "Smart home hub and remote on a wooden table."
 imageKeyword: smart home devices on table
 draft: false
 products:
