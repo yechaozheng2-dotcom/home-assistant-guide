@@ -9,7 +9,7 @@ tags:
   - Matter
   - Smart Home
 image: "/images/zigbee2mqtt-vs-matter-which-is-the-best-for-your-smart-home.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "person wearing silver bracelet holding a light"
 imageKeyword: "smart home devices connected"
 draft: false
 ---

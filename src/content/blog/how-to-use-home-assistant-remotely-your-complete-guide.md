@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - IoT
 image: "/images/how-to-use-home-assistant-remotely-your-complete-guide.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "Young woman using phone at desk with laptop."
 imageKeyword: "remote access smart home"
 draft: false
 ---

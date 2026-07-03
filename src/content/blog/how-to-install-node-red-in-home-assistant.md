@@ -9,7 +9,7 @@ tags:
   - Automation
   - Smart Home
 image: "/images/how-to-install-node-red-in-home-assistant.jpg"
-imageAlt: "person using MacBook Pro"
+imageAlt: "Modern living room with neutral colors and elegant design."
 imageKeyword: "person using computer with Node-RED"
 draft: false
 ---

@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Reviews
 image: "/images/zigbee2mqtt-vs-zigbee-home-automation-which-is-best-for-your-smart-home.jpg"
-imageAlt: "smartwatch, technology, watch, time, device, wireless, smart, digital, modern, mobile, gadget, electronic, wristwatch, w"
+imageAlt: "computer, laptop, work place, mouse, office, internet, pc, wireless, digital, business, communication, desk, working, ho"
 imageKeyword: "smart home devices Zigbee"
 draft: false
 ---

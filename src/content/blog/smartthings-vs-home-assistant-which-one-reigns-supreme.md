@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Comparison
 image: "/images/smartthings-vs-home-assistant-which-one-reigns-supreme.jpg"
-imageAlt: "graphs of performance analytics on a laptop screen"
+imageAlt: "Employer dashboard showing application trends and key metrics."
 imageKeyword: "smart home dashboard comparison"
 draft: false
 ---

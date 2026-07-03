@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Guides
 image: "/images/zigbee2mqtt-vs-home-assistant-which-one-should-you-choose.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "black and gray computer motherboard"
 imageKeyword: "smart home devices connected wirelessly"
 draft: false
 ---

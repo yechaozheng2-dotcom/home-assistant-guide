@@ -9,7 +9,7 @@ tags:
   - Home Automation
   - Smart Home
 image: "/images/best-voice-assistant-for-home-automation-google-assistant-vs-amazon-alexa.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "a living room filled with furniture and a chandelier"
 imageKeyword: "smart home devices"
 draft: false
 ---

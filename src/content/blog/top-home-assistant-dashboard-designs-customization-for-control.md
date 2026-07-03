@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Customization
 image: "/images/top-home-assistant-dashboard-designs-customization-for-control.jpg"
-imageAlt: "graphs of performance analytics on a laptop screen"
+imageAlt: "A luxurious, modern living room with exquisite design."
 imageKeyword: "smart home dashboard interface"
 draft: false
 ---

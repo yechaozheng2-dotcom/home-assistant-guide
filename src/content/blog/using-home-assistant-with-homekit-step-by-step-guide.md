@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/using-home-assistant-with-homekit-step-by-step-guide.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "Hand adjusting a digital thermostat display"
 imageKeyword: "person configuring smart home"
 draft: false
 ---

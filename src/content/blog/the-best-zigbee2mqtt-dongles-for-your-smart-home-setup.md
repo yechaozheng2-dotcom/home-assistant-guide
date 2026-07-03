@@ -10,7 +10,7 @@ tags:
 - Home Assistant
 - Dongles
 image: "/images/the-best-zigbee2mqtt-dongles-for-your-smart-home-setup.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
+imageAlt: "a white tablet with a screen"
 imageKeyword: smart home devices on table
 draft: false
 products:

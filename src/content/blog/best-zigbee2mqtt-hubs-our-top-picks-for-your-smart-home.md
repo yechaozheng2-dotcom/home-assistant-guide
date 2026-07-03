@@ -10,7 +10,7 @@ tags:
 - Automation
 - Hubs
 image: "/images/best-zigbee2mqtt-hubs-our-top-picks-for-your-smart-home.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "turned-on charcoal Google Home Mini and smartphone"
 imageKeyword: smart home devices setup
 draft: false
 products:

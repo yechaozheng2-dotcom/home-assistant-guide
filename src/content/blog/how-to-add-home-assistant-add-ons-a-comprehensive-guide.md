@@ -9,7 +9,7 @@ tags:
   - Add-ons
   - Automation
 image: "/images/how-to-add-home-assistant-add-ons-a-comprehensive-guide.jpg"
-imageAlt: "person using MacBook Pro"
+imageAlt: "person wearing long-sleeve top working on laptop"
 imageKeyword: "person using laptop home assistant"
 draft: false
 ---

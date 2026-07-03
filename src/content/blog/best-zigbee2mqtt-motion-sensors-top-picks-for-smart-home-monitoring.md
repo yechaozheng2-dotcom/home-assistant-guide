@@ -10,7 +10,7 @@ tags:
 - Smart Home
 - Home Automation
 image: "/images/best-zigbee2mqtt-motion-sensors-top-picks-for-smart-home-monitoring.jpg"
-imageAlt: "a man holding a syringe"
+imageAlt: "low angle photo of gray concrete high-rise building"
 imageKeyword: hands installing motion sensor
 draft: false
 products:

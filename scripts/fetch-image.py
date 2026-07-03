@@ -3,7 +3,7 @@
 fetch-image.py — 从 Unsplash / Pexels / Pixabay 搜索并下载图片，自动更新文章 frontmatter。
 
 用法：
-  # 全自动（取第一张，用于脚本/Agent）
+  # 全自动（随机选一张，用于脚本/Agent）
   python3 scripts/fetch-image.py <markdown文件路径> [关键词] --auto
 
   # 只下载图片，返回 URL（用于内嵌图片）
@@ -101,7 +101,7 @@ def get_project_root() -> str:
 
 # ── Unsplash ──────────────────────────────────────────────────────────────────
 
-def unsplash_search(query: str, per_page: int = 5) -> list[dict]:
+def unsplash_search(query: str, per_page: int = 10) -> list[dict]:
     keys = []
     k1 = os.environ.get("UNSPLASH_ACCESS_KEY", "").strip()
     k2 = os.environ.get("UNSPLASH_ACCESS_KEY_2", "").strip()
@@ -156,7 +156,7 @@ def save_unsplash(photo: dict, filename_slug: str) -> tuple[str, str, str]:
 
 # ── Pexels ────────────────────────────────────────────────────────────────────
 
-def pexels_search(query: str, per_page: int = 5) -> list[dict]:
+def pexels_search(query: str, per_page: int = 10) -> list[dict]:
     key = os.environ.get("PEXELS_API_KEY", "").strip()
     if not key:
         return []
@@ -200,7 +200,7 @@ def save_pexels(photo: dict, filename_slug: str) -> tuple[str, str, str]:
 
 # ── Pixabay ───────────────────────────────────────────────────────────────────
 
-def pixabay_search(query: str, per_page: int = 5) -> list[dict]:
+def pixabay_search(query: str, per_page: int = 10) -> list[dict]:
     key = os.environ.get("PIXABAY_API_KEY", "").strip()
     if not key:
         return []
@@ -237,7 +237,7 @@ def save_pixabay(photo: dict, filename_slug: str) -> tuple[str, str, str]:
 
 # ── 统一搜索入口（Unsplash → Pexels → Pixabay fallback） ─────────────────────
 
-def search_photo(query: str, per_page: int = 5) -> list[dict]:
+def search_photo(query: str, per_page: int = 10) -> list[dict]:
     results = unsplash_search(query, per_page)
     if results:
         return results
@@ -299,7 +299,8 @@ def mode_cover(md_path: str, query: str, auto: bool) -> None:
         sys.exit(1)
 
     if auto:
-        selected = results[0]
+        import random
+        selected = random.choice(results)
     else:
         print("\n搜索结果：")
         for i, photo in enumerate(results):

@@ -9,7 +9,7 @@ tags:
   - Automation
   - Blueprints
 image: "/images/home-assistant-blueprint-vs-automation-which-should-you-choose.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "icon"
 imageKeyword: "home automation setup"
 draft: false
 ---

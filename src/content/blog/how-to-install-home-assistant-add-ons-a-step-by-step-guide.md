@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/how-to-install-home-assistant-add-ons-a-step-by-step-guide.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "person holding black android smartphone"
 imageKeyword: "person configuring smart home"
 draft: false
 ---
