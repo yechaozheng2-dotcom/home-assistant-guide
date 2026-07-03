@@ -9,7 +9,7 @@ tags:
   - Automation
   - Beginner Tips
 image: "/images/home-assistant-beginner-tips-your-ultimate-starter-guide.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
+imageAlt: "turned-on charcoal Google Home Mini and smartphone"
 imageKeyword: "configuring smart home devices"
 draft: false
 ---

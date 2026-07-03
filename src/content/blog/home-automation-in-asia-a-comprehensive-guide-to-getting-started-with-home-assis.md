@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Asia
 image: "/images/home-automation-in-asia-a-comprehensive-guide-to-getting-started-with-home-assis.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "A group of electronic devices sitting on top of a table"
 imageKeyword: "smart home automation"
 draft: false
 ---
