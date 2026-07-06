@@ -9,7 +9,7 @@ tags:
   - Automations
   - Home Automation Ideas
 image: "/images/top-10-home-assistant-automations-to-transform-your-smart-home.jpg"
-imageAlt: "graphical user interface, website"
+imageAlt: "black and white camera button"
 imageKeyword: "smart home dashboard"
 draft: false
 ---

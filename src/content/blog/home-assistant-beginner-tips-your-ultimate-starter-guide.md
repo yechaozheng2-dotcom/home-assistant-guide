@@ -9,7 +9,7 @@ tags:
   - Automation
   - Beginner Tips
 image: "/images/home-assistant-beginner-tips-your-ultimate-starter-guide.jpg"
-imageAlt: "A cell phone and a camera sitting on a table"
+imageAlt: "A group of electronic devices sitting on top of a table"
 imageKeyword: "configuring smart home devices"
 draft: false
 ---
