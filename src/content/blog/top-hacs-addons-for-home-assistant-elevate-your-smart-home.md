@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/top-hacs-addons-for-home-assistant-elevate-your-smart-home.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "person holding black android smartphone"
 imageKeyword: "person configuring smart home"
 draft: false
 ---

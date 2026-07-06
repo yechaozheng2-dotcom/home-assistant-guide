@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Guides
 image: "/images/best-home-assistant-automations-for-ultimate-smart-home-control.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
+imageAlt: "Smart home hub and remote on a wooden table."
 imageKeyword: "smart home devices on table"
 draft: false
 ---
