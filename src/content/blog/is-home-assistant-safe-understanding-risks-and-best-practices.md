@@ -9,7 +9,7 @@ tags:
   - Security
   - Automation
 image: "/images/is-home-assistant-safe-understanding-risks-and-best-practices.jpg"
-imageAlt: "A person holding a smart phone next to a camera"
+imageAlt: "a person holding a device"
 imageKeyword: "person configuring smart home devices"
 draft: false
 ---

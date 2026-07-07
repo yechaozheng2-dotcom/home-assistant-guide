@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/the-best-home-assistant-addon-repositories-to-supercharge-your-smart-home.jpg"
-imageAlt: "turned-on charcoal Google Home Mini and smartphone"
+imageAlt: "black ipad beside white portable speaker"
 imageKeyword: "configuring home assistant"
 draft: false
 ---

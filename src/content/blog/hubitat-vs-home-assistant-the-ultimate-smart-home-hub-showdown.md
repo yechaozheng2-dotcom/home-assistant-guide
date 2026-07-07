@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Home Automation
 image: "/images/hubitat-vs-home-assistant-the-ultimate-smart-home-hub-showdown.jpg"
-imageAlt: "A camera sitting on top of a pile of white objects"
+imageAlt: "A close up of a toy with lights on it"
 imageKeyword: "smart home hub devices"
 draft: false
 ---
