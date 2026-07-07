@@ -9,7 +9,7 @@ tags:
   - routers
   - home automation
 image: "/images/best-zigbee2mqtt-router-a-clear-choice-for-your-smart-home.jpg"
-imageAlt: "A cell phone and a camera sitting on a table"
+imageAlt: "turned-on charcoal Google Home Mini and smartphone"
 imageKeyword: "smart home devices setup"
 draft: false
 ---

@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/the-best-home-assistant-addon-repositories-to-supercharge-your-smart-home.jpg"
-imageAlt: "black ipad beside white portable speaker"
+imageAlt: "white and gray Google home on brown table"
 imageKeyword: "configuring home assistant"
 draft: false
 ---

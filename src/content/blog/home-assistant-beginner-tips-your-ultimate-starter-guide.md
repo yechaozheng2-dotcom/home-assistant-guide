@@ -9,7 +9,7 @@ tags:
   - Automation
   - Beginner Tips
 image: "/images/home-assistant-beginner-tips-your-ultimate-starter-guide.jpg"
-imageAlt: "gray Nest thermostat displaying at 63"
+imageAlt: "white and gray Google smart speaker and two black speakers"
 imageKeyword: "configuring smart home devices"
 draft: false
 ---

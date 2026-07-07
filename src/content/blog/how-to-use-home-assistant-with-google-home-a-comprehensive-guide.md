@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/how-to-use-home-assistant-with-google-home-a-comprehensive-guide.jpg"
-imageAlt: "a hand holding a black device"
+imageAlt: "a wooden room with a clock on the wall"
 imageKeyword: "smart home control panel"
 draft: false
 ---
