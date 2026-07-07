@@ -10,7 +10,7 @@ tags:
 - Automation
 - Hubs
 image: "/images/best-zigbee2mqtt-hubs-our-top-picks-for-your-smart-home.jpg"
-imageAlt: "A smart phone sitting on top of a table next to a flashlight"
+imageAlt: "white and gray Google smart speaker and two black speakers"
 imageKeyword: smart home devices setup
 draft: false
 products:

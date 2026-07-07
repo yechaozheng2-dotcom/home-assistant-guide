@@ -9,7 +9,7 @@ tags:
   - Automation
   - IoT
 image: "/images/how-to-add-integrations-to-home-assistant-step-by-step-guide.jpg"
-imageAlt: "a white tablet with a screen"
+imageAlt: "turned-on charcoal Google Home Mini and smartphone"
 imageKeyword: "smart home device setup"
 draft: false
 ---
