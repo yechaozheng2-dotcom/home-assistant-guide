@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Dashboard
 image: "/images/top-lovelace-dashboard-examples-for-home-assistant.jpg"
-imageAlt: "a white tablet with a screen"
+imageAlt: "graphs of performance analytics on a laptop screen"
 imageKeyword: "colorful home automation dashboard"
 draft: false
 ---

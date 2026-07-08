@@ -9,7 +9,7 @@ tags:
   - Automation
   - IoT
 image: "/images/how-to-add-integrations-to-home-assistant-step-by-step-guide.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "A cell phone and a camera sitting on a table"
 imageKeyword: "smart home device setup"
 draft: false
 ---

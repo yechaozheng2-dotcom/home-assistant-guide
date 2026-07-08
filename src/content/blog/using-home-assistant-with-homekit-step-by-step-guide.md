@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/using-home-assistant-with-homekit-step-by-step-guide.jpg"
-imageAlt: "a man in a black shirt is working on a picture"
+imageAlt: "Finger pressing button on digital thermostat display."
 imageKeyword: "person configuring smart home"
 draft: false
 ---

@@ -9,7 +9,7 @@ tags:
   - Automation
   - Beginner Tips
 image: "/images/home-assistant-beginner-tips-your-ultimate-starter-guide.jpg"
-imageAlt: "white and gray Google smart speaker and two black speakers"
+imageAlt: "a computer keyboard, light bulbs, and other electronics on a purple and yellow background"
 imageKeyword: "configuring smart home devices"
 draft: false
 ---
