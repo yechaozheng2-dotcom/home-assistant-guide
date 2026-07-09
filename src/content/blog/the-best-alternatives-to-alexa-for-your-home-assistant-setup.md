@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Privacy
 image: "/images/the-best-alternatives-to-alexa-for-your-home-assistant-setup.jpg"
-imageAlt: "white and gray Google smart speaker and two black speakers"
+imageAlt: "A cell phone and a camera sitting on a table"
 imageKeyword: "smart home devices on table"
 draft: false
 ---

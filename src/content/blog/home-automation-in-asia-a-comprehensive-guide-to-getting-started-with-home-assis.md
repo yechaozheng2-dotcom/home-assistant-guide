@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Asia
 image: "/images/home-automation-in-asia-a-comprehensive-guide-to-getting-started-with-home-assis.jpg"
-imageAlt: "a computer keyboard, light bulbs, and other electronics on a purple and yellow background"
+imageAlt: "gold Apple iPhone smartphone held at the door"
 imageKeyword: "smart home automation"
 draft: false
 ---
