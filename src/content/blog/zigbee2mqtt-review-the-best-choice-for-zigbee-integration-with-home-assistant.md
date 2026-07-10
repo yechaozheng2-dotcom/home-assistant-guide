@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/zigbee2mqtt-review-the-best-choice-for-zigbee-integration-with-home-assistant.jpg"
-imageAlt: "a white tablet with a screen"
+imageAlt: "a living room filled with furniture and a fire place"
 imageKeyword: "home automation setup"
 draft: false
 ---

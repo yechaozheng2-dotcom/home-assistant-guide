@@ -9,7 +9,7 @@ tags:
   - Home Assistant
   - Automation
 image: "/images/zigbee2mqtt-topics-explained-your-essential-guide.jpg"
-imageAlt: "A smart phone sitting on top of a table next to a flashlight"
+imageAlt: "white and gray Google smart speaker and two black speakers"
 imageKeyword: "smart home devices"
 draft: false
 ---
