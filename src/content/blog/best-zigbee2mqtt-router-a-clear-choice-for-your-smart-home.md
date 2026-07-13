@@ -9,7 +9,7 @@ tags:
   - routers
   - home automation
 image: "/images/best-zigbee2mqtt-router-a-clear-choice-for-your-smart-home.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "icon"
 imageKeyword: "smart home devices setup"
 draft: false
 ---

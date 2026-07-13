@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - zigbee2mqtt
 image: "/images/how-to-pair-zigbee-devices-with-home-assistant-a-step-by-step-guide.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "a computer keyboard, light bulbs, and other electronics on a purple and yellow background"
 imageKeyword: "configuring smart home devices"
 draft: false
 ---

@@ -9,7 +9,7 @@ tags:
   - Home Automation
   - Buying Guide
 image: "/images/home-assistant-addon-versions-your-ultimate-buying-guide.jpg"
-imageAlt: "A cell phone and a camera sitting on a table"
+imageAlt: "A smart phone sitting on top of a table next to a flashlight"
 imageKeyword: "smart home devices integration"
 draft: false
 ---

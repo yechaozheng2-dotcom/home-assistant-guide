@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - View Blueprint
 image: "/images/mastering-home-assistant-view-blueprints-a-comprehensive-guide.jpg"
-imageAlt: "man in blue and red plaid dress shirt using silver ipad"
+imageAlt: "person holding black iphone 4"
 imageKeyword: "person using home assistant"
 draft: false
 ---
