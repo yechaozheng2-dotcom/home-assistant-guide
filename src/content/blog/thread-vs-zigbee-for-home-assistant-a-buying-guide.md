@@ -9,7 +9,7 @@ tags:
   - Home Assistant
   - Smart Home
 image: "/images/thread-vs-zigbee-for-home-assistant-a-buying-guide.jpg"
-imageAlt: "A group of electronic devices sitting on top of a table"
+imageAlt: "a close up of a light bulb on a table"
 imageKeyword: "smart home devices with glowing lights"
 draft: false
 ---

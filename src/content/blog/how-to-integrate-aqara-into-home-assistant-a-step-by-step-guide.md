@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/how-to-integrate-aqara-into-home-assistant-a-step-by-step-guide.jpg"
-imageAlt: "A smart phone sitting on top of a table next to a flashlight"
+imageAlt: "gold Apple iPhone smartphone held at the door"
 imageKeyword: "smart home devices setup"
 draft: false
 ---

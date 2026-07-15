@@ -9,7 +9,7 @@ tags:
   - Automation
   - Beginner Tips
 image: "/images/home-assistant-beginner-tips-your-ultimate-starter-guide.jpg"
-imageAlt: "a computer keyboard, light bulbs, and other electronics on a purple and yellow background"
+imageAlt: "A group of electronic devices sitting on top of a table"
 imageKeyword: "configuring smart home devices"
 draft: false
 ---

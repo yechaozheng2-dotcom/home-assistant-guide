@@ -9,7 +9,7 @@ tags:
   - Home Assistant
   - Smart Home
 image: "/images/mqtt-vs-zigbee-in-home-assistant-which-should-you-choose.jpg"
-imageAlt: "icon"
+imageAlt: "A cell phone and a camera sitting on a table"
 imageKeyword: "smart home devices connections"
 draft: false
 ---

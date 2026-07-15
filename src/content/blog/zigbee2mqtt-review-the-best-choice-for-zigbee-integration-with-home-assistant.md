@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/zigbee2mqtt-review-the-best-choice-for-zigbee-integration-with-home-assistant.jpg"
-imageAlt: "A cell phone and a camera sitting on a table"
+imageAlt: "turned-on charcoal Google Home Mini and smartphone"
 imageKeyword: "home automation setup"
 draft: false
 ---

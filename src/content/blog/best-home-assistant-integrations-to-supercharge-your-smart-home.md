@@ -9,7 +9,7 @@ tags:
   - Integrations
   - Automation
 image: "/images/best-home-assistant-integrations-to-supercharge-your-smart-home.jpg"
-imageAlt: "a woman standing in front of a wall mounted light switch"
+imageAlt: "woman in red long sleeve shirt holding silver iphone 6"
 imageKeyword: "person interacting with smart home device"
 draft: false
 ---

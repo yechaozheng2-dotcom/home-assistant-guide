@@ -9,7 +9,7 @@ tags:
   - Buying Guide
   - Home Automation
 image: "/images/the-best-systems-to-run-home-assistant-for-beginners.jpg"
-imageAlt: "white and gray Google smart speaker and two black speakers"
+imageAlt: "A group of electronic devices sitting on top of a table"
 imageKeyword: "smart home device setup"
 draft: false
 ---
