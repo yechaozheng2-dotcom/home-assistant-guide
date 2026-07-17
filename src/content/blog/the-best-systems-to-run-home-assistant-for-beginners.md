@@ -9,7 +9,7 @@ tags:
   - Buying Guide
   - Home Automation
 image: "/images/the-best-systems-to-run-home-assistant-for-beginners.jpg"
-imageAlt: "A group of electronic devices sitting on top of a table"
+imageAlt: "A smart phone sitting on top of a table next to a flashlight"
 imageKeyword: "smart home device setup"
 draft: false
 ---

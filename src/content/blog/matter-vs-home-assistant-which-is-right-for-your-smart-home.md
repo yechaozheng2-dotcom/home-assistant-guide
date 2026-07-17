@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation Guides
 image: "/images/matter-vs-home-assistant-which-is-right-for-your-smart-home.jpg"
-imageAlt: "A cell phone and a camera sitting on a table"
+imageAlt: "icon"
 imageKeyword: "smart home device setup"
 draft: false
 ---

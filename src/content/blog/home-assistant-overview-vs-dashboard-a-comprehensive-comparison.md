@@ -9,7 +9,7 @@ tags:
   - Automation
   - Dashboard
 image: "/images/home-assistant-overview-vs-dashboard-a-comprehensive-comparison.jpg"
-imageAlt: "a woman standing in front of a wall mounted light switch"
+imageAlt: "Woman holding a tablet displaying a photo gallery."
 imageKeyword: "person configuring smart home dashboard"
 draft: false
 ---

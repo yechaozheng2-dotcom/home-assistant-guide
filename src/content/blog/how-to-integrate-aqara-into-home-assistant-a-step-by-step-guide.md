@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/how-to-integrate-aqara-into-home-assistant-a-step-by-step-guide.jpg"
-imageAlt: "gold Apple iPhone smartphone held at the door"
+imageAlt: "white and gray Google smart speaker and two black speakers"
 imageKeyword: "smart home devices setup"
 draft: false
 ---

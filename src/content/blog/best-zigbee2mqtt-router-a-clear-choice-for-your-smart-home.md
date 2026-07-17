@@ -9,7 +9,7 @@ tags:
   - routers
   - home automation
 image: "/images/best-zigbee2mqtt-router-a-clear-choice-for-your-smart-home.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
+imageAlt: "a computer keyboard, light bulbs, and other electronics on a purple and yellow background"
 imageKeyword: "smart home devices setup"
 draft: false
 ---
