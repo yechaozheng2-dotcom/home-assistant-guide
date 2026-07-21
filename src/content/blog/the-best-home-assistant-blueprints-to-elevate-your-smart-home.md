@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - Automation
 image: "/images/the-best-home-assistant-blueprints-to-elevate-your-smart-home.jpg"
-imageAlt: "graphs of performance analytics on a laptop screen"
+imageAlt: "white ipad on white table"
 imageKeyword: "smart home automation dashboard"
 draft: false
 ---

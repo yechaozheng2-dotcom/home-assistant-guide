@@ -9,7 +9,7 @@ tags:
   - Automations
   - Home Automation Ideas
 image: "/images/top-10-home-assistant-automations-to-transform-your-smart-home.jpg"
-imageAlt: "graphs of performance analytics on a laptop screen"
+imageAlt: "Person holding a smartphone displaying an application."
 imageKeyword: "smart home dashboard"
 draft: false
 ---

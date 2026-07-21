@@ -9,7 +9,7 @@ tags:
   - Home Assistant
   - Automation
 image: "/images/zigbee2mqtt-topics-explained-your-essential-guide.jpg"
-imageAlt: "a laptop computer sitting on top of a table"
+imageAlt: "a computer keyboard, light bulbs, and other electronics on a purple and yellow background"
 imageKeyword: "smart home devices"
 draft: false
 ---

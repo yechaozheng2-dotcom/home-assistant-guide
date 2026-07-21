@@ -9,7 +9,7 @@ tags:
   - Home Assistant
   - Smart Home
 image: "/images/wifi-vs-zigbee-for-home-assistant-which-is-best-for-your-smart-home.jpg"
-imageAlt: "A group of electronic devices sitting on top of a table"
+imageAlt: "turned-on charcoal Google Home Mini and smartphone"
 imageKeyword: "smart home devices setup"
 draft: false
 ---

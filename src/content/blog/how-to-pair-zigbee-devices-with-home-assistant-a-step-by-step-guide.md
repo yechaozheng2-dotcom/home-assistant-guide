@@ -9,7 +9,7 @@ tags:
   - Smart Home
   - zigbee2mqtt
 image: "/images/how-to-pair-zigbee-devices-with-home-assistant-a-step-by-step-guide.jpg"
-imageAlt: "a computer keyboard, light bulbs, and other electronics on a purple and yellow background"
+imageAlt: "white thermostat at 62"
 imageKeyword: "configuring smart home devices"
 draft: false
 ---
